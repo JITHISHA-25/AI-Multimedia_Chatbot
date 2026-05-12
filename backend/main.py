@@ -11,6 +11,9 @@ import fitz
 import whisper
 
 from groq import Groq
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 # =========================
@@ -38,7 +41,7 @@ app.add_middleware(
 # =========================
 
 client = Groq(
-    api_key="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"
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 
