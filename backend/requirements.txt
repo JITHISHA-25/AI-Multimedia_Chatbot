@@ -4,6 +4,9 @@ python-multipart
 PyMuPDF
 groq
 openai-whisper
-torch
 ffmpeg-python
 python-dotenv
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.2+cpu
+torchaudio==2.2.2+cpu
