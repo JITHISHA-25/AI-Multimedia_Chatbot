@@ -7,13 +7,14 @@ from typing import List
 
 import shutil
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 import fitz
 import whisper
 
 from groq import Groq
-from dotenv import load_dotenv
 
-load_dotenv()
 
 
 # =========================
