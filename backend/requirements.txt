@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+PyMuPDF
+groq
+openai-whisper
+torch
+ffmpeg-python
+python-dotenv
